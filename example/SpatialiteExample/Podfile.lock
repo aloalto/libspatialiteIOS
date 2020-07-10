@@ -1,0 +1,16 @@
+PODS:
+  - libspatialite-ios (0.0.4)
+
+DEPENDENCIES:
+  - libspatialite-ios (from `../../`)
+
+EXTERNAL SOURCES:
+  libspatialite-ios:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  libspatialite-ios: aec1e46d8db3ecfa9b3551fdbd65f1d7666d5796
+
+PODFILE CHECKSUM: e34cf5307040351063bbb9da56a03160d986d285
+
+COCOAPODS: 1.9.3

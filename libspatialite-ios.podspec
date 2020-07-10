@@ -95,7 +95,9 @@ Pod::Spec.new do |spec|
   #
 
   spec.vendored_libraries = "lib/lib*.a"
-  
+  spec.source_files = "include/**/*.h"
+  spec.exclude_files = "include/spatialite/spatialite.h"
+  spec.header_mappings_dir = "include"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "spatialite.h"
-#import "sqlite3.h"
+#import <libspatialite-ios/spatialite.h>
+#import <sqlite3.h>
 
 @interface ViewController ()
 
@@ -29,7 +29,7 @@ void *cache;
 - (void)dbOpen {
     NSLog(@"Open Database");
     
-    NSString *db_file = @"db8.sqlite";
+    NSString *db_file = @"db.sqlite";
     
     NSArray *dir_paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *document_dir = dir_paths[0];

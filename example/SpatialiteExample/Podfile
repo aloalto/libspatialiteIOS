@@ -1,0 +1,3 @@
+target 'SpatialiteExample' do
+  pod 'libspatialite-ios', :path => '../../'
+end
