@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "libspatialite-ios"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.4"
   spec.summary      = "SpatiaLite is an open source library intended to extend the SQLite core to support fully fledged Spatial SQL capabilities."
 
   # This description is used to generate tags and improve search results.
@@ -84,7 +84,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source = {
-    :http => 'https://github.com/smellman/libspatialite-ios/releases/download/0.0.2/libspatialite-ios-0.0.2-release.zip'
+    :http => 'https://github.com/smellman/libspatialite-ios/releases/download/0.0.4/libspatialite-ios-release.zip'
   }
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
