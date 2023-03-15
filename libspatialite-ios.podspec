@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "libspatialite-ios"
+  spec.name         = "libspatialiteIOS"
   spec.version      = "0.0.4"
   spec.summary      = "SpatiaLite is an open source library intended to extend the SQLite core to support fully fledged Spatial SQL capabilities."
 
